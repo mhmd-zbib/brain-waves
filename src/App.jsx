@@ -1,12 +1,9 @@
 import React from "react";
+// @ts-ignore
 import Button from "./modules/core/components/Button";
 
 const App = () => {
-  return (
-    <div>
-      <Button>test</Button>
-    </div>
-  );
+  return <Button>sdahi</Button>;
 };
 
 export default App;
