@@ -1,22 +1,7 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Button from "./modules/core/components/Button";
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  const name = "Mohammad  ";
-
-  return (
-    <div>
-      <p className="bg-red-400 rounded-">hello {name} </p>
-      <Button variant="secondary" onClick={() => alert("Hello")}>
-        Click me
-      </Button>
-    </div>
-  );
-}
+const App = () => {
+  return <div>App</div>;
+};
 
 export default App;
