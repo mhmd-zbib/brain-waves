@@ -7,7 +7,7 @@ import Button from "./modules/core/components/Button";
 function App() {
   const [count, setCount] = useState(0);
 
-  const name = "Mohammad";
+  const name = "Mohammad  ";
 
   return (
     <div>
