@@ -2,7 +2,9 @@ import React from "react";
 
 function TagsItem({ tag }) {
   return (
-    <div className="bg-accent w-fit px-2 py-1 rounded-full text-sm">{tag}</div>
+    <div className="bg-primary w-fit px-3  rounded-full text-sm text-accent">
+      {tag}
+    </div>
   );
 }
 

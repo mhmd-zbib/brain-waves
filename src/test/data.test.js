@@ -7,7 +7,8 @@ const posts = [
       avatar: "https://example.com/avatar1.png",
     },
     title: "How to learn React?",
-    content: "I'm new to React and I want to learn it. Any tips?",
+    content:
+      "You can start with the official React documentation. It's really helpful! I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?",
     tags: ["React", "JavaScript"],
     comments: [
       {
@@ -18,7 +19,7 @@ const posts = [
           avatar: "https://example.com/avatar2.png",
         },
         content:
-          "You can start with the official React documentation. It's really helpful!",
+          "You can start with the official React documentation. It's really helpful! I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?",
         rating: 4,
         replies: [
           {

@@ -3,7 +3,7 @@ import React from "react";
 const ProfilePicture = ({ image, size, ...props }) => {
   let sizeClasses = "";
   if (size === "sm") {
-    sizeClasses = "w-10 h-10";
+    sizeClasses = "w-6 h-6";
   } else if (size === "md") {
     sizeClasses = "w-12 h-12";
   } else if (size === "lg") {
@@ -13,9 +13,13 @@ const ProfilePicture = ({ image, size, ...props }) => {
   return (
     <div
       {...props}
-      className={`relative inline-block ${sizeClasses} cursor-pointer`}>
+      className={`relative inline-block rounded-full overflow-hidden ${sizeClasses} cursor-pointer`}>
       {image ? (
-        <img src={image} alt="Profile" className="rounded-full object-cover " />
+        <img
+          src={image}
+          alt="Profile"
+          className="rounded-full object-cover w-full h-full"
+        />
       ) : (
         <div className="rounded-full bg-primary w-full h-full" />
       )}

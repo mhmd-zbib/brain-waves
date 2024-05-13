@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#75aed8", // Light blue
         secondary: "#19252e", // Dark blue
+        tertiary: "#212f3b", // New color
         accent: "#2a3942", // Dark grey
         background: "#05121b", // Dark background
         text: "#FFFFFF", // White text
