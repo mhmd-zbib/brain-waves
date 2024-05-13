@@ -59,7 +59,7 @@ function AuthorInfo({ author, date }) {
 export default function FeedItem({ post }) {
   const { title, content, course, tags, author, date, answers, votes } = post;
   return (
-    <Card className="gap-3 p-3">
+    <Card className="gap-3 ">
       <PostContent
         title={title}
         content={content}
