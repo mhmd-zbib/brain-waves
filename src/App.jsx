@@ -1,9 +1,28 @@
-import React from "react";
-// @ts-ignore
-import Button from "./modules/core/components/Button";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { NavBar } from "./core/components/layout/Navbar";
+import { Home } from "./features/home";
 
-const App = () => {
-  return <Button>sdahi</Button>;
-};
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <NavBar />
+        <Outlet />
+      </>
+    ),
+    errorElement: <div>oh</div>,
+    children: [
+      {
+        path: "home",
+        element: <Home />,
+      },
+    ],
+  },
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
 
 export default App;
