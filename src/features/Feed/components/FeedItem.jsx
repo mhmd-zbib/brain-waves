@@ -1,7 +1,8 @@
 import React from "react";
-import { Card } from "../../../core/components/layout/Cards";
+import { Card } from "../../../core/components/ui/Cards";
 import { ProfilePicture } from "../../../core/components/ui/ProfilePicture";
 import TagsItem from "./TagsItem";
+import { IoIosArrowUp } from "react-icons/io";
 
 function PostContent({ title, content, course, answers, votes }) {
   return (
@@ -10,8 +11,8 @@ function PostContent({ title, content, course, answers, votes }) {
         <p>{course}</p>
         <Answers answers={answers} votes={votes} />
       </div>
-      <p className="text-lg font-bold">{title}</p> {/* Adjusted font size */}
-      <p className="text-sm">{content}</p> {/* Adjusted font size */}
+      <p className="text-lg font-bold">{title}</p>
+      <p className="text-sm">{content}</p>
     </div>
   );
 }
@@ -20,16 +21,16 @@ function Answers({ answers, votes }) {
   return (
     <div className="flex flex-row gap-2 items-center">
       <p className="bg-accent px-2 py-1 rounded-full text-xs">{answers} ✔</p>
-      <p className="bg-accent px-2 py-1 rounded-full text-xs">{votes} ▲</p>
+      <p className="bg-accent px-2 py-1 rounded-full text-xs ">
+        {votes} <IoIosArrowUp />
+      </p>
     </div>
   );
 }
 
 function TagsList({ tags }) {
   return (
-    <div className="flex flex-wrap gap-1">
-      {" "}
-      {/* Adjusted layout */}
+    <div className="flex flex-wrap gap-2">
       {tags.map((tag, index) => (
         <TagsItem key={index} tag={tag} />
       ))}
@@ -46,7 +47,7 @@ function AuthorInfo({ author, date }) {
         size="sm"
         image={avatar}
       />
-      <div className="flex flex items-center gap-2 ">
+      <div className="flex  items-center gap-2 ">
         <p className="font-medium text-sm">{name}</p> <span>•</span>
         <p className="text-textSecondary text-xs">
           {new Date(date).toDateString()}

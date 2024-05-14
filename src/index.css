@@ -6,3 +6,31 @@
 body {
   @apply bg-background text-white
 }
+
+
+/* Styles for WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 4px;
+  /* Width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #3f454d;
+  /* Color of the scrollbar handle */
+  border-radius: 4px;
+  /* Radius of the scrollbar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #19252e;
+  border-radius: 4px;
+  /* Color of the scrollbar track */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+  /* Color of the scrollbar corner */
+}

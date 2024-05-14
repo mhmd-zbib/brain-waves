@@ -49,6 +49,22 @@ const data2 = [
     answers: 7,
     votes: 25,
   },
+  {
+    id: 12,
+    author: {
+      name: "Alex",
+      avatar: "https://d3jkudlc7u70kh.cloudfront.net/doctor-facts.jpg",
+      id: 4,
+    },
+    course: "Physics",
+    title: "Newton's Laws of Motion",
+    content:
+      "Newton's laws of motion describe the relationship between an object and the forces acting on it. The first law states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force. The second law relates the net force acting on an object to its acceleration. The third law states that for every action, there is an equal and opposite reaction.",
+    date: new Date(),
+    tags: ["physics", "Newton's laws"],
+    answers: 7,
+    votes: 25,
+  },
 ];
 
 export default data2;

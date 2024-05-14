@@ -1,2 +1,2 @@
-import Feed from "./components/Feed";
+import Feed from "./Feed";
 export { Feed };
