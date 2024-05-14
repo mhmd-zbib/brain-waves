@@ -57,10 +57,10 @@ function AuthorInfo({ author, date }) {
   );
 }
 
-export default function FeedItem({ post }) {
+export default function FeedItem({ post, onClick }) {
   const { title, content, course, tags, author, date, answers, votes } = post;
   return (
-    <Card className="gap-3 ">
+    <Card className="gap-3 " onClick={onClick}>
       <PostContent
         title={title}
         content={content}

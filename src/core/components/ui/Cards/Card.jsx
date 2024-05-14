@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card({ children, className, style, onClick, disabled }) {
-  const cardClasses = `bg-secondary rounded-2xl p-4 flex flex-col ${
+  const cardClasses = `bg-secondary rounded-2xl  flex flex-col ${
     disabled ? "" : "hover:bg-tertiary cursor-pointer"
   } ${className}`;
 
@@ -17,7 +17,7 @@ function Card({ children, className, style, onClick, disabled }) {
       onClick={handleClick}
       disabled={disabled}
       style={{ cursor: disabled ? "default" : "pointer" }}>
-      {children}
+      <div className="m-4">{children}</div>
     </div>
   );
 }
