@@ -1,6 +1,6 @@
 const posts = [
   {
-    id: 1,
+    id: 23,
     author: {
       id: 1,
       name: "John Doe",
@@ -45,7 +45,7 @@ const posts = [
         replies: [],
       },
     ],
-    date: Date.now(), // Current timestamp
+    date: 1715970077, // Current timestamp
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ const posts = [
         replies: [],
       },
     ],
-    date: Date.now(), // Current timestamp
+    date: 1715970077,
   },
 ];
 

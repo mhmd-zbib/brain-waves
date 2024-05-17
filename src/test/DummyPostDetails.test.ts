@@ -15,3 +15,9 @@ const dummyPostDetails = {
   answers: 5,
   votes: 20,
 };
+
+export const getPostDetails = (postId: number) => {
+  console.log(postId, "post id");
+  if (postId !== 23) return null;
+  return dummyPostDetails;
+};

@@ -1,6 +1,16 @@
 import React from "react";
 
-const ProfilePicture = ({ image, size, ...props }) => {
+interface ProfilePictureProps {
+  image?: string;
+  size?: "sm" | "md" | "lg";
+  [key: string]: any;
+}
+
+const ProfilePicture: React.FC<ProfilePictureProps> = ({
+  image,
+  size = "md",
+  ...props
+}) => {
   let sizeClasses = "";
   if (size === "sm") {
     sizeClasses = "w-6 h-6";
@@ -13,7 +23,8 @@ const ProfilePicture = ({ image, size, ...props }) => {
   return (
     <div
       {...props}
-      className={`relative inline-block rounded-full overflow-hidden ${sizeClasses} cursor-pointer`}>
+      className={`relative inline-block rounded-full overflow-hidden ${sizeClasses} cursor-pointer`}
+    >
       {image ? (
         <img
           src={image}

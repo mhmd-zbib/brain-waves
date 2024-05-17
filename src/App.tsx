@@ -1,9 +1,9 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import Navbar from "./core/components/layout/Navbar/Navbar";
+// import Navbar from "./core/components/layout/Navbar/Navbar";
 import { SidePanel } from "./core/components/layout/SidePanel";
 import { Feed } from "./features/Feed";
 import { Sidebar } from "./features/Sidebar";
-import { PostDetails } from "./features/PostDetails";
+import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 const router = createBrowserRouter([
   {
@@ -23,16 +23,18 @@ const router = createBrowserRouter([
         path: "/",
         element: <Feed />,
       },
-      {
-        path: "/post/:postId",
-        element: <PostDetails />,
-      },
     ],
   },
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  const queryClient = new QueryClient();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+    </QueryClientProvider>
+  );
 }
 
 export default App;
