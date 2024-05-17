@@ -1,0 +1,130 @@
+[
+  {
+    "id": 23,
+    "author": {
+      "name": "Mohammad",
+      "avatar": "https://i.pinimg.com/originals/f8/1b/f0/f81bf032d0a33a7d4a79214c5edc4816.png",
+      "id": 2
+    },
+    "major": "Heart",
+    "course": "BIO101",
+    "title": "What are white blood cells?",
+    "content": "You can start with the official React documentation. It's really helpful! I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?I'm interested in learning React JS but don't know where to start. Can anyone provide some beginner-friendly resources or tips?",
+    "date": 1715970077,
+    "tags": ["biology", "blood cells"],
+    "answers": 5,
+    "votes": 20
+  },
+  {
+    "id": 24,
+    "author": {
+      "name": "Sara",
+      "avatar": "https://example.com/avatar_sara.png",
+      "id": 3
+    },
+    "major": "Heart",
+    "course": "ECO201",
+    "title": "Impact of supply chain disruptions on pricing",
+    "content": "Understanding how supply chain disruptions affect pricing strategies. Any recent case studies or analyses?",
+    "date": 1715970277,
+    "tags": ["economics", "supply chain", "pricing"],
+    "answers": 8,
+    "votes": 15
+  },
+  {
+    "id": 25,
+    "author": {
+      "name": "Emma",
+      "avatar": "https://example.com/avatar_emma.png",
+      "id": 4
+    },
+    "major": "Literature",
+    "course": "LIT301",
+    "title": "Shakespeare's influence on modern literature",
+    "content": "Exploring how Shakespeare's works continue to influence modern literature. Any contemporary authors inspired by his writing style?",
+    "date": 1715970477,
+    "tags": ["literature", "Shakespeare", "modern literature"],
+    "answers": 12,
+    "votes": 25
+  },
+  {
+    "id": 26,
+    "author": {
+      "name": "David",
+      "avatar": "https://example.com/avatar_david.png",
+      "id": 5
+    },
+    "major": "Psychology",
+    "course": "PSY401",
+    "title": "Impact of memory on decision-making",
+    "content": "How does memory influence decision-making processes? Any studies linking memory function to cognitive biases?",
+    "date": 1715970677,
+    "tags": ["psychology", "memory", "decision-making"],
+    "answers": 6,
+    "votes": 18
+  },
+  {
+    "id": 27,
+    "author": {
+      "name": "Sophia",
+      "avatar": "https://example.com/avatar_sophia.png",
+      "id": 6
+    },
+    "major": "Engineering",
+    "course": "ENG501",
+    "title": "Innovations in sustainable construction materials",
+    "content": "Exploring the latest innovations in sustainable construction materials. Any breakthroughs in reducing environmental impact?",
+    "date": 1715970877,
+    "tags": ["engineering", "sustainability", "construction materials"],
+    "answers": 10,
+    "votes": 22
+  },
+  {
+    "id": 28,
+    "author": {
+      "name": "James",
+      "avatar": "https://example.com/avatar_james.png",
+      "id": 7
+    },
+    "major": "Art",
+    "course": "ART601",
+    "title": "Impact of Impressionism on modern art",
+    "content": "Analyzing the enduring impact of Impressionism on contemporary art movements. How did it shape artistic expression?",
+    "date": 1715971077,
+    "tags": ["art", "Impressionism", "modern art"],
+    "answers": 7,
+    "votes": 19
+  },
+  {
+    "id": 29,
+    "author": {
+      "name": "Liam",
+      "avatar": "https://example.com/avatar_liam.png",
+      "id": 8
+    },
+    "major": "Music",
+    "course": "MUS701",
+    "title": "Evolution of electronic music genres",
+    "content": "Tracing the evolution of electronic music genres from their origins to contemporary styles. What are the key developments?",
+    "date": 1715971277,
+    "tags": ["music", "electronic music", "music genres"],
+    "answers": 9,
+    "votes": 21
+  },
+  {
+    "id": 30,
+    "author": {
+      "name": "Olivia",
+      "avatar": "https://example.com/avatar_olivia.png",
+      "id": 9
+    },
+    "major": "History",
+    "course": "HIS801",
+    "title": "Impact of colonialism on indigenous cultures",
+    "content": "Examining the lasting effects of colonialism on indigenous cultures. How have these cultures adapted and preserved their heritage?",
+    "date": 1715971477,
+    "tags": ["history", "colonialism", "indigenous cultures"],
+    "answers": 8,
+    "votes": 20
+  }
+]

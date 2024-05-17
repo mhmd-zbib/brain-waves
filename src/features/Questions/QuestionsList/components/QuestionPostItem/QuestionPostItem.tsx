@@ -1,15 +1,17 @@
 import React from "react";
-import { Card } from "../../../core/components/ui/Cards";
+import { Card } from "../../../../../core/components/ui/Cards";
 import AuthorInfo from "./AuthorPost";
-import InteractionPost from "./InteractionPost";
-import TagPost from "./TagPost";
 import ContentPost from "./ContentPost";
+import TagPost from "./TagPost";
 
-const FeedItem: React.FC<{ post: QuestionPostProps }> = ({ post }) => {
+const QuestionPostItem: React.FC<{
+  post: QuestionPostProps;
+  onClick?: () => void;
+}> = ({ post, onClick }) => {
   const { title, content, course, answers, votes, tags, author, date } = post;
 
   return (
-    <Card className="flex gap-4">
+    <Card className="flex gap-4" onClick={onClick}>
       <ContentPost
         content={content}
         title={title}
@@ -25,4 +27,4 @@ const FeedItem: React.FC<{ post: QuestionPostProps }> = ({ post }) => {
   );
 };
 
-export default FeedItem;
+export default QuestionPostItem;

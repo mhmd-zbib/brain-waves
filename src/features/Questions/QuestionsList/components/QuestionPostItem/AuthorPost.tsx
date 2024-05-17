@@ -1,5 +1,5 @@
 import React from "react";
-import { ProfilePicture } from "../../../core/components/ui/ProfilePicture";
+import { ProfilePicture } from "../../../../../core/components/ui/ProfilePicture";
 
 interface AuthorInfoProps {
   author: { name: string; avatar: string };

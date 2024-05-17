@@ -1,9 +1,10 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 // import Navbar from "./core/components/layout/Navbar/Navbar";
 import { SidePanel } from "./core/components/layout/SidePanel";
-import { Feed } from "./features/Feed";
+import Questions from "./features/Questions/QuestionsList";
 import { Sidebar } from "./features/Sidebar";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import QuestionDetails from "./features/Questions/QuestionDetails/QuestionDetails";
 
 const router = createBrowserRouter([
   {
@@ -20,9 +21,19 @@ const router = createBrowserRouter([
     errorElement: <div>oh</div>,
     children: [
       {
-        path: "/",
-        element: <Feed />,
+        path: "q/home",
+        element: <Questions />,
       },
+
+      {
+        path: "q/:major/:course/:id",
+        element: <QuestionDetails />,
+      },
+
+      {
+        path: "q/:major",
+      },
+      { path: "q/:major/:course", element: <Questions /> },
     ],
   },
 ]);
