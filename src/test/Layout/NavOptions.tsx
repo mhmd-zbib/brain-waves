@@ -9,9 +9,13 @@ export default function NavOptions() {
   return (
     <div className="flex gap-2 flex-col">
       <NavItem title="Home" navTo="home" icon={<AiOutlineHome />} />
-      <NavItem title="Questions" navTo="home" icon={<IoChatbubblesOutline />} />
-      <NavItem title="Resources" navTo="resources" icon={<LiaBrainSolid />} />
-      <NavItem title="Major" navTo="major" icon={<LuGraduationCap />} />
+      <NavItem
+        title="Questions"
+        navTo="q/home"
+        icon={<IoChatbubblesOutline />}
+      />
+      <NavItem title="Resources" navTo="r/home" icon={<LiaBrainSolid />} />
+      <NavItem title="Major" navTo="m/home" icon={<LuGraduationCap />} />
     </div>
   );
 }

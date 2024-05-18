@@ -26,6 +26,8 @@ function App() {
               <Route path="q/:major/:course" element={<Questions />} />
 
               <Route path="r/" />
+
+              <Route path="r/home" element={<div>resources here</div>} />
             </Routes>
           </div>
           <SidePanel />
