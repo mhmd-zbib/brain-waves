@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import dummydata from "../../../test/dummydata.test.json";
 import QuestionPostItem from "./components/QuestionPostItem";

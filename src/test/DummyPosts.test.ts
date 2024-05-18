@@ -7,6 +7,7 @@ const data2 = [
         "https://i.pinimg.com/originals/f8/1b/f0/f81bf032d0a33a7d4a79214c5edc4816.png",
       id: 2,
     },
+    major: "Heart",
     course: "Biology",
     title: "What are white blood cells?",
     content:

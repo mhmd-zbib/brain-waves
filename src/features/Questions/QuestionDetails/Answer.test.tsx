@@ -17,6 +17,7 @@ const Answer: React.FC<AnswerProps> = ({ answer }) => {
           {replies.map((reply) => (
             <div key={reply.id} className="reply">
               <p>{reply.content}</p>
+              <p>{date}</p>
               <p>Replied by: {reply.author.name}</p>
             </div>
           ))}

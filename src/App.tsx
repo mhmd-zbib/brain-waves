@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SidePanel } from "./core/components/layout/SidePanel";
 import QuestionDetails from "./features/Questions/QuestionDetails/QuestionDetails";
 import Questions from "./features/Questions/QuestionsList";
-import { Sidebar } from "./features/Sidebar";
+import { Sidebar } from "./core/components/layout/Sidebar";
 
 const router = createBrowserRouter([
   {

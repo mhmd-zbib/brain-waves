@@ -1,4 +1,4 @@
-import { Card } from "../../core/components/ui/Cards";
+import { Card } from "../../ui/Cards";
 
 export default function Sidebar() {
   return (
