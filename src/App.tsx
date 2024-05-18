@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { SidePanel } from "./core/components/layout/SidePanel";
+import { Sidebar } from "./core/components/layout/Sidebar";
 import QuestionDetails from "./features/Questions/QuestionDetails/QuestionDetails";
 import Questions from "./features/Questions/QuestionsList";
-import { Sidebar } from "./core/components/layout/Sidebar";
 
 function App() {
   const queryClient = new QueryClient();
@@ -15,7 +15,8 @@ function App() {
           <Sidebar />
           <div className="sm:col-span-12 lg:col-span-9 xl:col-span-6">
             <Routes>
-              <Route path="*" element={<Navigate to="q/home" />} />
+              <Route path="*" element={<Navigate to="home" />} />
+              <Route path="home" element={<div>home page</div>} />
               <Route path="q/home" element={<Questions />} />
               <Route
                 path="q/:major/:course/:id"
@@ -23,6 +24,8 @@ function App() {
               />
               <Route path="q/:major" element={<Questions />} />
               <Route path="q/:major/:course" element={<Questions />} />
+
+              <Route path="r/" />
             </Routes>
           </div>
           <SidePanel />
