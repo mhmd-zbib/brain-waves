@@ -5,9 +5,15 @@ interface NavItemProps {
   title: string;
   navTo: string;
   icon?: ReactNode;
+  children?: ReactNode;
 }
 
-export default function NavItem({ title, navTo, icon }: NavItemProps) {
+export default function NavItem({
+  title,
+  navTo,
+  icon,
+  children,
+}: NavItemProps) {
   return (
     <Link
       to={navTo}
@@ -15,6 +21,7 @@ export default function NavItem({ title, navTo, icon }: NavItemProps) {
     >
       {icon && <span className="text-2xl">{icon}</span>}
       <span className="text-md">{title}</span>
+      <div>{children}</div>
     </Link>
   );
 }
