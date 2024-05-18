@@ -15,8 +15,8 @@ const Card: React.FC<CardProps> = ({
   onClick,
   disabled = false,
 }) => {
-  const cardClasses = `bg-secondary rounded-2xl flex flex-col ${
-    disabled ? "" : "hover:bg-tertiary cursor-pointer p-4"
+  const cardClasses = `bg-secondary rounded-2xl flex flex-col p-4 ${
+    !disabled ? "hover:bg-tertiary cursor-pointer" : ""
   } ${className}`;
 
   const handleClick = () => {

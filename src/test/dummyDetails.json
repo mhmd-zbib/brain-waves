@@ -1,0 +1,136 @@
+{
+	"question": {
+		"id": "74cfcd61-9e01-44b3-aac5-2e0b7963a505",
+		"author": {
+			"name": "Desiri Hendrix",
+			"avatar": "http://dummyimage.com/183x100.png/5fa2dd/ffffff",
+			"id": "a7ca392b-9ad8-40f7-84e4-a34f6055d053"
+		},
+		"major": "English",
+		"course": "zxjn168",
+		"title": "Computer Systems Analyst I",
+		"content": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+		"date": 1012978436,
+		"tags": [
+			"Biology",
+			"Psychology",
+			"Engineering",
+			"Business Administration"
+		],
+		"answers": [
+			{
+				"id": "a1b2c3d4-5678-90e1-f2g3-h4i5j6k7l8m9",
+				"author": {
+					"name": "Sophia Lee",
+					"avatar": "http://dummyimage.com/183x100.png/0099cc/ffffff",
+					"id": "94e889ce-1b9b-4c3c-b7f7-ba2b191f4b17"
+				},
+				"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"date": 1012979436,
+				"upvotes": 12,
+				"downvotes": 3,
+				"awards": [
+					{
+						"name": "Expert Answer",
+						"icon": "http://dummyimage.com/50x50.png/ffcc00/000000"
+					}
+				],
+				"shares": 5,
+				"replies": [
+					{
+						"id": "r1b2c3d4-5678-90e1-f2g3-h4i5j6k7l8m9",
+						"author": {
+							"name": "Desiri Hendrix",
+							"avatar": "http://dummyimage.com/183x100.png/5fa2dd/ffffff",
+							"id": "a7ca392b-9ad8-40f7-84e4-a34f6055d053"
+						},
+						"content": "Thank you, Sophia! Your insights are valuable.",
+						"date": 1012980436,
+						"upvotes": 3,
+						"downvotes": 0,
+						"awards": [],
+						"shares": 0,
+						"replies": [
+							{
+								"id": "r2b2c3d4-5678-90e1-f2g3-h4i5j6k7l8m9",
+								"author": {
+									"name": "Sophia Lee",
+									"avatar": "http://dummyimage.com/183x100.png/0099cc/ffffff",
+									"id": "94e889ce-1b9b-4c3c-b7f7-ba2b191f4b17"
+								},
+								"content": "You're welcome! Happy to help.",
+								"date": 1012981436,
+								"upvotes": 2,
+								"downvotes": 0,
+								"awards": [],
+								"shares": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "b1c2d3e4-5678-90f1-g2h3-i4j5k6l7m8n9",
+				"author": {
+					"name": "John Doe",
+					"avatar": "http://dummyimage.com/183x100.png/336699/ffffff",
+					"id": "b2a3c4d5-6e7f-89g1-h2i3-j4k5l6m7n8o9"
+				},
+				"content": "Integer vitae libero ac risus egestas placerat. Maecenas malesuada.",
+				"date": 1012982436,
+				"upvotes": 8,
+				"downvotes": 1,
+				"awards": [],
+				"shares": 2,
+				"replies": [
+					{
+						"id": "r3b2c3d4-5678-90e1-f2g3-h4i5j6k7l8m9",
+						"author": {
+							"name": "Jane Smith",
+							"avatar": "http://dummyimage.com/183x100.png/ff9900/ffffff",
+							"id": "j1a2n3e4-5678-90f1-g2h3-i4j5k6l7m8n9"
+						},
+						"content": "Nullam accumsan lorem in dui. Suspendisse potenti.",
+						"date": 1012983436,
+						"upvotes": 5,
+						"downvotes": 0,
+						"awards": [],
+						"shares": 0,
+						"replies": [
+							{
+								"id": "r4b2c3d4-5678-90e1-f2g3-h4i5j6k7l8m9",
+								"author": {
+									"name": "John Doe",
+									"avatar": "http://dummyimage.com/183x100.png/336699/ffffff",
+									"id": "b2a3c4d5-6e7f-89g1-h2i3-j4k5l6m7n8o9"
+								},
+								"content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+								"date": 1012984436,
+								"upvotes": 1,
+								"downvotes": 0,
+								"awards": [],
+								"shares": 0
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "c1d2e3f4-5678-90g1-h2i3-j4k5l6m7n8o9",
+				"author": {
+					"name": "Emily Johnson",
+					"avatar": "http://dummyimage.com/183x100.png/66cc33/ffffff",
+					"id": "e2m3i4l5y6-7890g1-h2i3-j4k5l6m7n8o9"
+				},
+				"content": "Phasellus feugiat, lectus ac aliquam ullamcorper, leo urna tristique tellus.",
+				"date": 1012985436,
+				"upvotes": 6,
+				"downvotes": 0,
+				"awards": [],
+				"shares": 0,
+				"replies": []
+			}
+		],
+		"votes": 77
+	}
+}

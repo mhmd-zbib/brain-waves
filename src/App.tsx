@@ -1,10 +1,10 @@
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 // import Navbar from "./core/components/layout/Navbar/Navbar";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SidePanel } from "./core/components/layout/SidePanel";
+import QuestionDetails from "./features/Questions/QuestionDetails/QuestionDetails";
 import Questions from "./features/Questions/QuestionsList";
 import { Sidebar } from "./features/Sidebar";
-import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-import QuestionDetails from "./features/Questions/QuestionDetails/QuestionDetails";
 
 const router = createBrowserRouter([
   {

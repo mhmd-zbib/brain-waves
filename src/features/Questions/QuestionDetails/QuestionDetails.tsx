@@ -1,17 +1,5 @@
-import { useParams } from "react-router-dom";
-
-interface RouteParams {
-  major: string;
-  course: string;
-  id: number;
-}
+import React from "react";
 
 export default function QuestionDetails() {
-  const { major, course, id } = useParams<RouteParams>();
-
-  return (
-    <div>
-      {major} {course} {id}
-    </div>
-  );
+  return <div>QuestionDetails</div>;
 }
