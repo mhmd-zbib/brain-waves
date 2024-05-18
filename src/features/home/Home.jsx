@@ -1,7 +1,5 @@
 import React from "react";
 import { Feed } from "../Feed";
-import { Sidebar } from "../Sidebar";
-import { Card } from "../../core/components/ui/Cards";
 
 export default function Home() {
   return (
