@@ -1,5 +1,4 @@
-import React from "react";
-import { AiOutlineHome, AiOutlineBook } from "react-icons/ai";
+import { AiOutlineBook, AiOutlineHome } from "react-icons/ai";
 import { FaGraduationCap } from "react-icons/fa";
 import NavItem from "./NavItem";
 

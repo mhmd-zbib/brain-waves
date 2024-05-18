@@ -1,4 +1,3 @@
-import React from "react";
 import { ProfilePicture } from "../../core/components/ui/ProfilePicture";
 
 export default function ProfileSide() {
