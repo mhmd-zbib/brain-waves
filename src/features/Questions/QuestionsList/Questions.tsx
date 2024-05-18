@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
-import dummydata from "../../../test/dummydata.test.json";
+import dummydata from "../../../test/data/dummydata.test.json";
 import QuestionPostItem from "./components/QuestionPostItem";
 
 export default function Questions() {
@@ -18,10 +18,6 @@ export default function Questions() {
 
   return (
     <div className="gap-4 flex flex-col">
-      <p>
-        {major} {course}
-      </p>
-
       {filteredPosts.map((post, index) => (
         <QuestionPostItem
           key={index}
